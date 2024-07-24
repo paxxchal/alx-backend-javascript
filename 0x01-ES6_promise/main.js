@@ -1,3 +1,8 @@
-import uploadPhoto from './5-photo-reject';
+import asyncUploadUser from "./100-await";
 
-console.log(uploadPhoto('guillaume.jpg'));
+const test = async () => {
+    const value = await asyncUploadUser();
+    console.log(value);
+};
+
+test();
