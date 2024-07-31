@@ -7,7 +7,7 @@ export function queryAPI(endpoint) {
   let count = weakMap.get(endpoint) || 0;
 
   // Increment the count
-  count++;
+  count += 1;
 
   // If count is 5 or more, throw an error
   if (count >= 5) {
