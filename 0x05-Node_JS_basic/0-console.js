@@ -1,8 +1,10 @@
-#!/usr/bin/env node
-
+/**
+ * Displays a message in STDOUT.
+ *
+ * @param {string} message - The message to be displayed.
+ */
 function displayMessage(message) {
     console.log(message);
-  }
+}
   
-  module.exports = displayMessage;
-  
+module.exports = displayMessage;
